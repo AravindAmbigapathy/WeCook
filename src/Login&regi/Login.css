@@ -1,0 +1,33 @@
+#login {
+
+    border-radius: 4%;
+    background-image: url('https://us.123rf.com/450wm/alexraths/alexraths1608/alexraths160800006/61924728-herbs-and-spices-over-black-stone-background-top-view-with-copy-space.jpg?ver=6');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4%;
+
+}
+
+#login-head {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+form div {
+    display: flex;
+    padding: 2px;
+    justify-content: center;
+    width: 100%;
+}
+
+.label {
+    color: aliceblue;
+    font-size: large;
+
+}
+
+.check {
+    border: 2px solid white;
+}

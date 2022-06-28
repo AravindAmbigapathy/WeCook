@@ -1,4 +1,5 @@
 import React from 'react'
+import Login from '../Login&regi/Login'
 import Register from '../Login&regi/Register'
 import './signing.css'
 
@@ -9,16 +10,16 @@ function Signing() {
             <span>Cook</span><br/>
             <img src='https://as2.ftcdn.net/v2/jpg/02/54/95/79/1000_F_254957901_80Q6lbAtfGfP7twBf3fzBIrxUVIOCVRB.jpg' height='150px' alt='imagee' /><br/>
             
-            <Register name='Cook'/>  <br/>
+            <Register name='Chef'/>  <br/>
             
-            <button className='login'>Login as Cook</button>
+            <Login name='Chef' />
         </div>
 
         <div className='foody'>
             <span>Foody</span><br/>
             <img src='https://as2.ftcdn.net/v2/jpg/02/54/95/79/1000_F_254957901_80Q6lbAtfGfP7twBf3fzBIrxUVIOCVRB.jpg' height='150px' alt='imagee' /><br/>
             <Register name='Foody'/>  <br/>
-            <button className='login'>Login as Foody</button>
+            <Login name='Foody' />
         </div>
     </div>
   )
