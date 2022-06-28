@@ -1,0 +1,13 @@
+.logo{
+    color: white;
+    text-decoration: none;
+  }
+  .logo:hover{
+    color: white;
+  }
+  .signIn{
+    color: rgb(223, 206, 206);
+  }
+  .signIn:hover{
+    color: rgb(223, 206, 206);
+  }

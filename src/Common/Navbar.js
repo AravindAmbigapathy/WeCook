@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import './Navbar.css';
 
 
 function Navbar1() {
@@ -18,7 +19,7 @@ function Navbar1() {
          
           </Nav>
           <Nav>
-            <Link eventKey={2} to="/signing">
+            <Link eventKey={2} to="/signing" className='signIn'>
               SignIn/SignUp
             </Link>
           </Nav>

@@ -1,13 +1,7 @@
 .App {
   text-align: center;
 }
-.logo{
-  color: white;
-  text-decoration: none;
-}
-.logo:hover{
-  color: white;
-}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
